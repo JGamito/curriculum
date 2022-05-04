@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.navBar {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  margin-right: 20px;
+}
+.a {
+  display: inline-block;
+  position: relative;
+  color: rgba(64, 55, 55, 0.8);
+  font-style: normal;
+  cursor: pointer;
+}
+.a:after {
+  color: rgba(64, 55, 55, 1);
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(64, 55, 55, 0.7);
+  transform-origin: bottom left;
+  transition: transform 0.25s ease-out;
+}
+.a:hover:after {
+  opacity: 1;
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
