@@ -10,7 +10,7 @@ function App() {
         <div className={styles.divPhoto}>
           <img className={styles.photo} alt="My Face" src={face1} />
           <h6 className={styles.h6}>Hi, I am Jorge Gamito Martin!</h6>
-          <h6 className={styles.h6}>
+          <h6 id="example" className={styles.h6}>
             When I was little I always wanted to be a programmer , today I am
             Junior Full Stack Developer.
           </h6>

@@ -5,13 +5,19 @@ function NavBar() {
     <div className={styles.container}>
       <div className={styles.navBar}>
         <div>
-          <a className={styles.a}>Projects </a>
+          <a className={styles.a} href="#example">
+            Projects
+          </a>
         </div>
         <div>
-          <a className={styles.a}>Technologies </a>
+          <a className={styles.a} href="#example">
+            Technologies
+          </a>
         </div>
         <div>
-          <a className={styles.a}> Contact </a>
+          <a className={styles.a} href="#example">
+            Contact
+          </a>
         </div>
       </div>
     </div>

@@ -34,3 +34,8 @@
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+.a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
