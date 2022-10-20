@@ -3,7 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import Home from "../components/pages/Home/home";
 import Projects from "../components/pages/Projects/projects";
 import Technologies from "../components/pages/Technologies/technologies";
-import contact from "../components/pages/Contact/contact";
+import Contact from "../components/pages/contact/contact";
 
 const Navigator = () => {
   return (
@@ -11,7 +11,7 @@ const Navigator = () => {
       <Route path="/" element={<Home />} />
       <Route path="/projects" element={<Projects />} />
       <Route path="/technologies" element={<Technologies />} />
-      <Route path="/contact" element={<contact />} />
+      <Route path="/contact" element={<Contact />} />
     </Routes>
   );
 };
