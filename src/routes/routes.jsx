@@ -3,7 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import Home from "../components/pages/Home/home";
 import Projects from "../components/pages/Projects/projects";
 import Technologies from "../components/pages/Technologies/technologies";
-import Contact from "../components/pages/Contact/contact";
+import Contact from "../components/pages/Contact/Contact";
 
 const Navigator = () => {
   return (
