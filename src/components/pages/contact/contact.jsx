@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./contact.module.css";
 
-const Contact = () => {
+const contact = () => {
   return (
     <div>
       <div className={styles.contact}>
@@ -11,4 +11,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default contact;
