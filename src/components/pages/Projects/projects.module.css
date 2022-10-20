@@ -3,12 +3,15 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color: #0d1117;
 }
 .projectsphoto {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  width: 60%;
+  height: 60%;
 }
 .pcmarktpc {
   width: 60%;
