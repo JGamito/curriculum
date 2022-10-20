@@ -1,0 +1,68 @@
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.projectsphoto {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.pcmarktpc {
+  width: 60%;
+  height: 60%;
+  border: solid rgba(240, 237, 237, 0.5);
+}
+.pcmarktmobilev {
+  width: 30%;
+  height: 30%;
+}
+
+.h1 {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #bac8d6;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+.h6title {
+  margin-top: 10%;
+}
+.h6 {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #bac8d6;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.react {
+  width: 5%;
+  height: 5%;
+  margin: 2%;
+}
+.title {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+.logo {
+  width: 10%;
+  height: 10%;
+}
+.titlepc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-inline: 5%;
+}
