@@ -11,7 +11,7 @@ const Navigator = () => {
       <Route path="/" element={<Home />} />
       <Route path="/projects" element={<Projects />} />
       <Route path="/technologies" element={<Technologies />} />
-      <Route path="/contact" element={<Contact />} />
+      <Route path="/contact" element={<contact />} />
     </Routes>
   );
 };
