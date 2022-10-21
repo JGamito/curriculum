@@ -27,7 +27,6 @@
 }
 .links:hover {
   border-radius: 0px 10px 0px 15px;
-  background-color: rgb(179, 177, 191);
   color: rgba(212, 202, 202, 0.5);
 }
 .links:after {
@@ -83,7 +82,6 @@ a:active {
   }
   .links:hover {
     border-radius: 0px 10px 0px 15px;
-    background-color: rgb(179, 177, 191);
     color: rgba(212, 202, 202, 0.5);
   }
   .links:after {
