@@ -18,7 +18,7 @@ const Projects = () => {
           <img className={styles.logo} alt="Logo pcmarkt" src={logo} />
           <h1 className={styles.h1}>PC-MARKT</h1>
         </div>
-        <div>
+        <div className={styles.text}>
           <h6 className={styles.h6}>
             PC-MARKT is the work presented at the end of the bootcamp where I
             showed my knowledge about frontend and backend, creating an
@@ -33,6 +33,7 @@ const Projects = () => {
             src={pcmarktmobile}
           />
         </div>
+        <a href="https://pc-markt.netlify.app/">LINK to PCMARKT!</a>
       </div>
     </div>
   );

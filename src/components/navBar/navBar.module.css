@@ -4,7 +4,7 @@
   width: 100% !important;
   display: flex;
   flex-direction: column;
-  margin: 5% 5%;
+  margin: 5%;
 }
 .navBar {
   display: flex;
@@ -58,19 +58,17 @@ a:active {
     padding-left: 0 !important;
     padding-right: 0 !important;
     width: 100% !important;
-    display: grid;
+    display: flex;
     flex-direction: column;
-    margin: 1px;
+    margin: 5%;
     color: red;
   }
   .navBar {
     display: flex;
     justify-content: center;
-    gap: 5%;
-    margin-right: 5%;
   }
   .links {
-    display: inline-block;
+    display: flex;
     position: relative;
     color: #bac8d6;
     letter-spacing: 1.5 px;
@@ -81,7 +79,7 @@ a:active {
     box-shadow: 4px 4px 8px 0px rgba(156, 52, 164, 0.5);
     background-color: #161b19;
     padding: 1%;
-    font-size: smaller;
+    font-size: small;
   }
   .links:hover {
     border-radius: 0px 10px 0px 15px;

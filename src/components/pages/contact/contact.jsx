@@ -6,11 +6,20 @@ const Contact = () => {
     <div className={styles.full}>
       <div className={styles.card}>
         <h4 className={styles.h4}> Contact me in my social media:</h4>
-        <a href="https://www.linkedin.com/in/jgamitomartin/">Linkedin</a>
+        <a
+          className={styles.a}
+          href="https://www.linkedin.com/in/jgamitomartin/"
+        >
+          Linkedin
+        </a>
         <br />
-        <a href="https://github.com/JGamito">GitHub</a>
+        <a className={styles.a} href="https://github.com/JGamito">
+          GitHub
+        </a>
         <br />
-        <a href="mailto:gamito90@hotmail.com">Correo electronico</a>
+        <a className={styles.a} href="mailto:gamito90@hotmail.com">
+          Email
+        </a>
       </div>
     </div>
   );

@@ -8,7 +8,7 @@
 .projectsphoto {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   width: 60%;
   height: 60%;
@@ -36,6 +36,7 @@
 }
 .h6title {
   margin-top: 10%;
+  color: #bac8d6;
 }
 .h6 {
   margin-left: 10px;
@@ -47,6 +48,7 @@
   display: flex;
   align-items: baseline;
   justify-content: center;
+  text-align: justify;
 }
 
 .react {
@@ -64,8 +66,19 @@
   height: 10%;
 }
 .titlepc {
+  width: 80%;
+  height: 100%;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   margin-inline: 5%;
+  background-color: rgba(0, 0, 0, 0.753);
+  border-style: groove;
+  box-shadow: 10px 10px 30px 10px rgba(255, 255, 255, 0.3);
+  border-radius: 30%;
+  padding-bottom: 2%;
+}
+.text {
+  width: 80%;
+  height: 50%;
 }
