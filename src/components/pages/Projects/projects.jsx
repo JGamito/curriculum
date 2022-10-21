@@ -33,7 +33,9 @@ const Projects = () => {
             src={pcmarktmobile}
           />
         </div>
-        <a href="https://pc-markt.netlify.app/">LINK to PCMARKT!</a>
+        <a className={styles.a} href="https://pc-markt.netlify.app/">
+          LINK to PCMARKT!
+        </a>
       </div>
     </div>
   );
