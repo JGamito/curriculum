@@ -1,91 +1,175 @@
-.projects {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background-color: #0d1117;
-}
-.projectsphoto {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  width: 60%;
-  height: 60%;
-}
-.pcmarktpc {
-  width: 60%;
-  height: 60%;
-  border: solid rgba(240, 237, 237, 0.5);
-}
-.pcmarktmobilev {
-  width: 30%;
-  height: 30%;
-}
+@media only screen and (min-width: 901px) {
+  .projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0d1117;
+  }
+  .projectsphoto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    height: 60%;
+  }
+  .pcmarktpc {
+    width: 60%;
+    height: 60%;
+    border: solid rgba(240, 237, 237, 0.5);
+  }
+  .pcmarktmobilev {
+    width: 20%;
+    height: 30%;
+  }
 
-.h1 {
-  margin-left: 10px;
-  margin-right: 10px;
-  color: #bac8d6;
-  margin-top: 5%;
-  margin-bottom: 5px;
-  text-align: center;
-  display: flex;
-  align-items: baseline;
-  justify-content: center;
-}
-.h6title {
-  margin-top: 10%;
-  color: #bac8d6;
-}
-.h6 {
-  margin-left: 10px;
-  margin-right: 10px;
-  color: #bac8d6;
-  margin-top: 5%;
-  margin-bottom: 5px;
-  text-align: center;
-  display: flex;
-  align-items: baseline;
-  justify-content: center;
-  text-align: justify;
-}
+  .h1 {
+    margin-left: 10px;
+    color: #bac8d6;
+    margin-top: 4%;
+    text-align: center;
+  }
+  .h6title {
+    margin-bottom: 3%;
+    color: #bac8d6;
+  }
+  .h6 {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #bac8d6;
+    margin-top: 5%;
+    margin-bottom: 5px;
+    text-align: center;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    text-align: justify;
+  }
 
-.react {
-  width: 5%;
-  height: 5%;
-  margin: 2%;
+  .react {
+    width: 3%;
+    height: 3%;
+    margin-left: 1%;
+  }
+  .title {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+  }
+  .logo {
+    width: 5%;
+    height: 5%;
+  }
+  .titlepc {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    align-content: center;
+    margin-inline: 5%;
+    background-color: rgba(0, 0, 0, 0.753);
+    border-style: groove;
+    box-shadow: 10px 10px 30px 10px rgba(255, 255, 255, 0.3);
+    border-radius: 0%;
+    padding-bottom: 2%;
+  }
+  .text {
+    width: 80%;
+    height: 50%;
+  }
+  .a {
+    color: whitesmoke;
+  }
+  .a:hover {
+    color: blue;
+    background-color: white;
+  }
 }
-.title {
-  display: flex;
-  align-items: baseline;
-  justify-content: center;
-}
-.logo {
-  width: 10%;
-  height: 10%;
-}
-.titlepc {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  margin-inline: 5%;
-  background-color: rgba(0, 0, 0, 0.753);
-  border-style: groove;
-  box-shadow: 10px 10px 30px 10px rgba(255, 255, 255, 0.3);
-  border-radius: 0%;
-  padding-bottom: 2%;
-}
-.text {
-  width: 80%;
-  height: 50%;
-}
-.a {
-  color: whitesmoke;
-}
-.a:hover {
-  color: blue;
-  background-color: white;
+@media only screen and (max-width: 600px) {
+  .projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0d1117;
+  }
+  .projectsphoto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    height: 60%;
+  }
+  .pcmarktpc {
+    width: 60%;
+    height: 60%;
+    border: solid rgba(240, 237, 237, 0.5);
+  }
+  .pcmarktmobilev {
+    width: 20%;
+    height: 30%;
+  }
+
+  .h1 {
+    color: #bac8d6;
+    text-align: center;
+    margin: 3%;
+  }
+  .h6title {
+    margin-bottom: 3%;
+    color: #bac8d6;
+  }
+  .h6 {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #bac8d6;
+    margin-top: 5%;
+    margin-bottom: 5px;
+    text-align: center;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    text-align: justify;
+  }
+
+  .react {
+    width: 6%;
+    height: 3%;
+    margin-left: 3%;
+  }
+  .title {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+  }
+  .logo {
+    width: 13%;
+  }
+  .titlepc {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    align-content: center;
+
+    background-color: rgba(0, 0, 0, 0.753);
+    border-style: groove;
+    box-shadow: 10px 10px 30px 10px rgba(255, 255, 255, 0.3);
+    border-radius: 0%;
+  }
+  .text {
+    width: 80%;
+    height: 50%;
+  }
+  .a {
+    color: whitesmoke;
+  }
+  .a:hover {
+    color: blue;
+    background-color: white;
+  }
 }
