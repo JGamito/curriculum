@@ -8,22 +8,22 @@ function NavBar() {
       <div className={styles.navBar}>
         <div>
           <Link className={styles.links} to="/">
-            Home
+            HOME
           </Link>
         </div>
         <div>
           <Link className={styles.links} to="/projects">
-            Projects
+            PROJECTS
           </Link>
         </div>
         <div>
           <Link className={styles.links} to="/technologies">
-            Technologies
+            TECHNOLOGIES
           </Link>
         </div>
         <div>
           <Link className={styles.links} to="/contact">
-            Contact
+            CONTACT
           </Link>
         </div>
       </div>

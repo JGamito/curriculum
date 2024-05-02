@@ -4,11 +4,11 @@ import face1 from "../../../../src/face1.png";
 
 const Home = () => {
   return (
-    <div>
+    <div className={styles.father}>
       <div className={styles.divPhoto}>
         <img className={styles.photo} alt="My Face" src={face1} />
         <h6 className={styles.h6_1}>
-          Hi, I am Jorge Gamito Martin!
+          HELLO! I am Jorge Gamito Martin!
           <p className={styles.saludo}> 👋</p>
         </h6>
       </div>
@@ -22,7 +22,7 @@ const Home = () => {
         </h6>
         <h6 className={styles.h6}>
           Today I am studying Development of multiplatform applications through
-          the IOC (online study).
+          the IOC.
         </h6>
       </div>
     </div>

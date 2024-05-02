@@ -6,7 +6,7 @@ import logo from "./../../../logo.png";
 
 const Projects = () => {
   return (
-    <div>
+    <div className={styles.father}>
       <div className={styles.projects}>
         <div className={styles.title}>
           <h6 className={styles.h6title}>

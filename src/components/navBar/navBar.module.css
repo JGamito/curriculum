@@ -4,7 +4,7 @@
   width: 100% !important;
   display: flex;
   flex-direction: column;
-  margin: 5%;
+  margin: 2%;
 }
 .navBar {
   display: flex;
@@ -14,21 +14,23 @@
   margin-right: 5%;
 }
 .links {
-  display: inline-block;
+  display: flex;
   position: relative;
-  color: #bac8d6;
+  justify-content: center;
+  color: #000000;
   letter-spacing: 2.5px;
   font-style: normal;
   cursor: pointer;
-  border: none;
+  border: solid;
   border-radius: 0px 10px 0px 15px;
-  /*box-shadow: 4px 4px 8px 0px rgba(156, 52, 164, 0.5);*/
-  background-color: #161b19;
+  box-shadow: 10px 15px 18px 0px rgba(0, 0, 0, 0.5);
+  background-color: #cecbcb;
   padding: 10%;
+  width: 155px;
 }
 .links:hover {
   border-radius: 0px 10px 0px 15px;
-  color: rgba(212, 202, 202, 0.5);
+  color: rgba(104, 7, 7, 0.5);
 }
 .links:after {
   color: rgba(64, 55, 55, 0.5);
@@ -61,7 +63,7 @@ a:active {
     display: flex;
     flex-direction: column;
     margin: 5%;
-    color: red;
+    color: rgb(255, 255, 255);
   }
   .navBar {
     display: flex;
@@ -70,14 +72,14 @@ a:active {
   .links {
     display: flex;
     position: relative;
-    color: #bac8d6;
+    color: #000000;
     letter-spacing: 1.5 px;
     font-style: normal;
     cursor: pointer;
     border: none;
     border-radius: 0px 10px 0px 15px;
     /*box-shadow: 4px 4px 8px 0px rgba(156, 52, 164, 0.5);*/
-    background-color: #161b19;
+    background-color: #ffffff;
     padding: 1%;
     font-size: small;
   }
